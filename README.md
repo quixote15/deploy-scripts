@@ -42,7 +42,7 @@ Lista de script.
             <td>Install.sh</td>
             <td>
 <pre>
-curl https://raw.githubusercontent.com/quixote15/install.sh | sh
+curl https://raw.githubusercontent.com/quixote15/deploy-scripts/master/install.sh | sh
 </pre>
             </td>
         </tr>
