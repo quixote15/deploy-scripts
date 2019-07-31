@@ -39,7 +39,7 @@ Lista de script.
     </thead>
     <tbody>
         <tr>
-            <td>Nodejs</td>
+            <td>Install.sh</td>
             <td>
 <pre>
 curl https://raw.githubusercontent.com/quixote15/install.sh | sh
