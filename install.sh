@@ -41,17 +41,17 @@ function StartScript {
   curl -fsSL https://get.docker.com | bash;
 
   # Create the docker group:
-  groupadd docker;
+  #groupadd docker;
 
   # Add your user to the docker group:
-  usermod -a -G docker $USER;
+  #usermod -a -G docker $USER;
 
   # Creating the docker configuration directory.
   mkdir -p $HOME/.docker;
 
   # Add permission for the configurations:
-  chmod -R g+rwx $HOME/.docker;
-  chown -v -R $USER:$USER $HOME/.docker;
+  #chmod -R g+rwx $HOME/.docker;
+  #chown -v -R $USER:$USER $HOME/.docker;
 
   # checking the installation of the docker version.
   docker version;
