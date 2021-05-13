@@ -26,6 +26,16 @@ Scripts Bash para configuração de ambiente em produção em maquinas vituais c
 - Executa o **BOT-IMOVEIS/RASA**
 - Executa o **Jarvis/Botkit**
 
+
+**deploy-docker-node.sh** provisiona os seguentes recursos:
+
+
+- Instala o **Docker**
+- Instala o **Docker Compose**
+- Instala o **NodeJS**
+- Instala o **npm**
+- Instala o **pm2**
+
 ## Aplicações
 
 Lista de script.
@@ -43,6 +53,14 @@ Lista de script.
             <td>
 <pre>
 curl https://raw.githubusercontent.com/quixote15/deploy-scripts/master/install.sh | sh
+</pre>
+            </td>
+        </tr>
+        <tr>
+            <td>deploy-docker-node.sh</td>
+            <td>
+<pre>
+curl https://raw.githubusercontent.com/quixote15/deploy-scripts/master/deploy-docker-node.sh | sh
 </pre>
             </td>
         </tr>
