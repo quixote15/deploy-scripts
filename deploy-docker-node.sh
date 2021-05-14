@@ -56,11 +56,13 @@ function StartScript {
   # checking the installation of the docker version.
   docker version;
 
-  # PARTE 02 = Instala nodejs
+  # PARTE 02 - instala docker compose
+  apt install docker-compose
+
+  # PARTE 03 = Instala nodejs
   apt-get install nodejs;
   apt-get install npm;
 
-  npm install -g pm2@latest;
   # PARTE 04 = Criar workspace
   mkdir workspace;
   cd workspace;

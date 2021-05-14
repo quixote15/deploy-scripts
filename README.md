@@ -34,7 +34,6 @@ Scripts Bash para configuração de ambiente em produção em maquinas vituais c
 - Instala o **Docker Compose**
 - Instala o **NodeJS**
 - Instala o **npm**
-- Instala o **pm2**
 
 ## Aplicações
 
