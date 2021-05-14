@@ -13,7 +13,7 @@ Scripts Bash para configuração de ambiente em produção em maquinas vituais c
              Este repositório contém dotfiles pessoais de Tiago santos.
 ```
 
-**Install.sh** provisiona os seguentes recursos:
+**Install-bot-imoveis.sh** provisiona os seguintes recursos:
 
 - Instala o **Anaconda**
 - Instala o **Docker**
@@ -27,13 +27,20 @@ Scripts Bash para configuração de ambiente em produção em maquinas vituais c
 - Executa o **Jarvis/Botkit**
 
 
-**deploy-docker-node.sh** provisiona os seguentes recursos:
-
+**install-docker-node.sh** provisiona os seguintes recursos:
 
 - Instala o **Docker**
 - Instala o **Docker Compose**
 - Instala o **NodeJS**
 - Instala o **npm**
+
+**install-api-saude.sh** provisiona os seguintes recursos:
+
+- Instala o **Docker**
+- Instala o **Docker Compose**
+- Instala o **NodeJS**
+- Instala o **npm**
+- Clona o projeto [Api Saude NodeJS](https://github.com/quixote15/nodejs-api-saude.git)
 
 ## Aplicações
 
@@ -48,10 +55,10 @@ Lista de script.
     </thead>
     <tbody>
         <tr>
-            <td>Install.sh</td>
+            <td>Install-bot-imoveis.sh</td>
             <td>
 <pre>
-curl https://raw.githubusercontent.com/quixote15/deploy-scripts/master/install.sh | sh
+curl https://raw.githubusercontent.com/quixote15/deploy-scripts/master/install-bot-imoveis.sh | sh
 </pre>
             </td>
         </tr>
@@ -60,6 +67,14 @@ curl https://raw.githubusercontent.com/quixote15/deploy-scripts/master/install.s
             <td>
 <pre>
 curl https://raw.githubusercontent.com/quixote15/deploy-scripts/master/deploy-docker-node.sh | sh
+</pre>
+            </td>
+        </tr>
+        <tr>
+            <td>Api Saude</td>
+            <td>
+<pre>
+curl https://raw.githubusercontent.com/quixote15/deploy-scripts/master/install-api-saude.sh | sh
 </pre>
             </td>
         </tr>
